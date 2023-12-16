@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 import google.generativeai as genai
 
 access_token = os.environ["APIKEY"]
