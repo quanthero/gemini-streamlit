@@ -23,7 +23,7 @@ for message in st.session_state.messages:
 
 # Function for generating AI response
 def generate_response(prompt_input):
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-pro-vision')
     response = model.generate_content(prompt_input)
     return response.text
 
